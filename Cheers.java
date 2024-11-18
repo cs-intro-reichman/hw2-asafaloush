@@ -4,7 +4,7 @@ public class Cheers {
                 String word = args[0];
 	        int cheersn = Integer.parseInt(args[1]);
                 String nword = word.toUpperCase();
-                String vowels = "aefhimnorsx";
+                String vowels = "AEFHILMNORSX";
                 for (int lettercount = 0; lettercount < nword.length(); lettercount++){
                         char c = nword.charAt(lettercount);
                         if (vowels.indexOf(c) > -1){
